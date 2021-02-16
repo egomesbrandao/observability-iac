@@ -32,7 +32,7 @@ resource "azurerm_container_group" "cg" {
 
     ports {
       port     = 3000
-      protocol = "HTTP"
+      protocol = "TCP"
     }
   }
 
